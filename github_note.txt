@@ -35,7 +35,7 @@
 12) git commit -m "message"
  creates a new commit with a brief commit message
 
-//--------------------2nd_class------------------------
+//--------------------2nd------------------------
 
 13) git remote add <respiratory_name> <respiratory_link>
  Adds a remote repository to your local Git configuration.
@@ -71,7 +71,7 @@
  Resets your local branch to match the specified remote branch.
 
 
-//----------------3rd class--------------------
+//----------------3rd--------------------
 
 1) git clone <collaboration_folder_name>
 
