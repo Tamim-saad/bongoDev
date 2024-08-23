@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TamimSaad | Home</title>
+    <meta name="description" content="Tamim Hasan Saad" />
+    <meta name="robots" content="index,follow" />
+    <link rel="shortcut icon" href="images/landscape.jpg" />
+    <!-- <link rel="stylesheet" href="style2.css"> -->
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        .description {
+            font-size: x-large;
+            font-weight: bolder;
+            text-align: center;
+            color: brown;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: 1fr 2fr 1fr;
+            grid-column-gap: 1em;
+            padding: 0% 30%;
+            font-family: Arial, sans-serif;
+        }
+
+        .img {
+            padding: 20%;
+            /* border: 1px solid red; */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+
+        .inner-img {
+            object-fit: cover;
+            border-radius: 50%;
+            width: 120px;
+            height: 120px;
+        }
+
+        .text {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            /* border: 1px solid red; */
+        }
+
+        .name {
+            font-size: x-large;
+            font-weight: bold;
+        }
+
+        .info {
+            color: #888;
+        }
+
+        .button {
+            display: flex;
+            align-items: center;
+            justify-content: left;
+            /* border: 1px solid red; */
+        }
+
+        button {
+            background: rgb(0, 70, 255, 0.7);
+            color: white;
+            font-weight: bold;
+            font-size: large;
+            padding: 10px;
+            border-radius: 5px;
+            border-color: aliceblue;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- //--------------------------------- -->
+    <p class="description">
+        Create This Layout With Pure CSS and GRID
+    </p>
+    <hr>
+    <div class="container">
+
+        <div class="img">
+            <img src="/images/botanical_tunnel2.jpg" alt="img1" class="inner-img">
+        </div>
+        <div class="text">
+            <div class="name">
+                Oliver
+            </div>
+            <div class="info">
+                the cat <br>
+                Popular <br>
+            </div>
+
+        </div>
+        <div class="button">
+            <button>
+                Follow
+            </button>
+        </div>
+        <div class="img">
+            <img src="/images/bridge2.jpg" alt="img2" class="inner-img">
+        </div>
+        <div class="text">
+            <div class="name">
+                Mimi
+            </div>
+            <div class="info">
+                Sleepy cat<br>
+                Popular<br>
+            </div>
+
+        </div>
+        <div class="button">
+            <button>
+                Follow
+            </button>
+        </div>
+        <div class="img">
+            <img src="/images/togor2.jpg" alt="img3" class="inner-img">
+        </div>
+        <div class="text">
+            <div class="name">
+                Rex
+            </div>
+            <div class="info">
+                Happy Bulldog<br>
+                Popular<br>
+            </div>
+        </div>
+
+        <div class="button">
+            <button>
+                Follow
+            </button>
+        </div>
+    </div>
+
+
+</body>
+
+</html>

@@ -1,0 +1,98 @@
+01) git status
+ display current status of git respiratory
+
+02) pwd
+ show present working directory
+
+03) ls
+ list the files and directories
+
+04) mkdir <name>
+ Creates a new directory with the specified name.
+
+05) ls -la
+ Lists all files and directories (including hidden ones) in long format.
+
+06)  git log
+ Displays the commit history for the current branch
+
+
+07) cd <folder_name>
+ Changes the current directory to the specified folder.
+
+08) cd ..
+  back one level in directory hierarchy.
+
+09) git add .
+ Stages all changes in current directory.
+
+10) rm <file/folder_name>
+ Removes the specified file or folder.
+
+11) rm -rf <folder_name>
+ Permanently removes a folder and its contents.!!!!!!!be careful!!!!!!!
+
+12) git commit -m "message"
+ creates a new commit with a brief commit message
+
+//--------------------2nd------------------------
+
+13) git remote add <respiratory_name> <respiratory_link>
+ Adds a remote repository to your local Git configuration.
+
+14) git remote -v
+ Lists all configured remote repositories.
+
+15) git remote
+ Lists the names of remote repositories.
+
+16) git push <repo_name> master
+  Pushes your local commits to the specified remote repository’s master branch.
+
+17) git branch <branch_name>
+ Creates a new branch with the specified name.
+
+18) git checkout <branch_name>
+  Switches to the specified branch.
+
+19) git checkout -b <branch_name>
+ Create new branch and switches to the new one/already exists
+
+20) git commit --amend
+ Modifies the last commit message.
+
+21) git push <repo_name> <branch_name> -f
+ Forces a push to the specified branch in the remote repository.
+
+22) git fetch
+ Retrieves changes from a remote repository without merging them.
+
+23) git reset --hard <repo_name>/master
+ Resets your local branch to match the specified remote branch.
+
+
+//----------------3rd--------------------
+
+1) git clone <collaboration_folder_name>
+
+2) ls
+
+3) cd <collaboration_folder_name>
+
+4) git remote -v
+
+5) git checkout -b <branch_name>
+
+6) git add .
+
+7) git commit -m "message"
+
+8) git remote
+
+9) git remote add <repo_name> <link>
+
+10) git fetch origin
+
+11) git rebase origin/main
+
+12) git rebase continue
